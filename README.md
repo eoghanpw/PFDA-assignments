@@ -32,8 +32,8 @@ This notebook visualises weather data by plotting temperature and windspped tren
 
 1. Clone Repository:
    ```bash
-   git clone <repository-url>
-   cd data-visualization-projects
+   git clone https://github.com/eoghanpw/PFDA-assignments.git
+   cd PFDA-assignments
    ```
 
 2. Install Required Libraries:
@@ -47,19 +47,19 @@ This notebook visualises weather data by plotting temperature and windspped tren
    ```bash
    jupyter notebook
    ```
-   Select the desired notebook and run the cells to generate the visualizations.
+   Select the desired notebook and run the cells to generate the visualisations.
 
 ---
 
-## Project Highlights
+## References
 
-- Clear Visualizations: Each notebook contains detailed, easy-to-understand plots and visualizations.
-- Reproducible Analyses: The code is organized and commented for reproducibility and learning.
-- Broad Applications: Covers diverse topics such as weather data analysis, email data insights, and probabilistic simulations.
+- [pandas documentation](https://pandas.pydata.org/docs/)
+- [matplotlib documentation](https://matplotlib.org/stable/index.html)
+- [numpy documentaion](https://numpy.org/doc/stable/)
+- [Python for Data Analysis](https://wesmckinney.com/book/)
+- [Risk Game Rules](https://www.ultraboardgames.com/risk/game-rules.php)
 
 ---
 
 ## Author
 **Eoghan Walsh**
-
-Feel free to contribute or reach out with questions and suggestions!
