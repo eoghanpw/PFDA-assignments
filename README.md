@@ -10,12 +10,12 @@ This repository contains Jupyter notebooks showcasing the assignments for the Pr
 ### 1. `assignment2-weather.ipynb`
 This notebook visualises weather data by plotting temperature trends over time.
 - Libraries used: `pandas`, `matplotlib`
-- Data used: (data/weatherreadings1.csv)
+- Data used: [weather data](data/weatherreadings1.csv)
 
 ### 2. `assignment03-pie.ipynb`
 This notebook extracts email domains from a dataset and visualises the distribution domains using a pie chart.
 - Libraries used: `pandas`, `matplotlib`
-- Data used: (data/people-1000.csv)
+- Data used: [domain data](data/people-1000.csv)
 
 ### 3. `assignment_5_risk.ipynb`
 This notebook simulates 1,000 battle rounds of the game Risk and visualises the outcomes.
@@ -24,7 +24,7 @@ This notebook simulates 1,000 battle rounds of the game Risk and visualises the 
 ### 4. `assignment_6_weather.ipynb`
 This notebook visualises weather data by plotting temperature and windspped trends over time.
 - Libraries used: `pandas`, `matplotlib`
-- Data used: (https://cli.fusio.net/cli/climate_data/webdata/hly4935.csv)
+- Data used: [more weather data](https://cli.fusio.net/cli/climate_data/webdata/hly4935.csv)
 
 ---
 
