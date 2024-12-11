@@ -69,7 +69,7 @@ plt.show()
 
 ---
 
-## References
+## Acknowledgments
 
 - [pandas documentation](https://pandas.pydata.org/docs/)
 - [matplotlib documentation](https://matplotlib.org/stable/index.html)
