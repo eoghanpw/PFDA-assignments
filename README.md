@@ -61,7 +61,7 @@ fig, ax = plt.subplots(figsize=(7, 7))
 ax.pie(count, labels=labels, colors=colours, autopct='%1.2f%%', shadow=True,
        explode=(0.1, 0, 0), wedgeprops={"edgecolor": "k"})
 
-ax.set_title("Email Domains", fontsize=20)
+ax.set_title("Email Domains", fontsize=20, fontweight="bold")
 
 plt.show()
 ```
