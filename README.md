@@ -49,7 +49,7 @@ The notebooks can be run online using [GitHub Codespaces](https://github.com/fea
 
 ## Usage Example
 
-The code snippet below is extracted from the `assignment03-pie.ipynb` notebook and demonstrates how to visualize data using a pie chart.
+The code snippet below is extracted from the `assignment03-pie.ipynb` notebook and demonstrates how to visualise data using a pie chart.
 
 ```python
 # Pie chart.
