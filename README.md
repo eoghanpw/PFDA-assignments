@@ -9,22 +9,18 @@ This repository contains Jupyter notebooks showcasing the assignments for the Pr
 
 ### 1. [`assignment2-weather.ipynb`](./assignment2-weather.ipynb)
 This notebook visualises weather data by plotting temperature trends over time.
-- Python libraries used: `pandas`, `matplotlib`
-- Data used: [weather data](data/weatherreadings1.csv)
+- Data: [weather data](data/weatherreadings1.csv)
 
 ### 2. [`assignment03-pie.ipynb`](./assignment03-pie.ipynb)
 This notebook extracts email domains from a dataset and visualises the distribution domains using a pie chart.
-- Python libraries used: `pandas`, `matplotlib`
-- Data used: [domain data](data/people-1000.csv)
+- Data: [domain data](data/people-1000.csv)
 
 ### 3. [`assignment_5_risk.ipynb`](./assignment_5_risk.ipynb)
 This notebook simulates 1,000 battle rounds of the game Risk and visualises the outcomes.
-- Python libraries used: `numpy`, `matplotlib`
 
 ### 4. [`assignment_6_weather.ipynb`](./assignment_6_weather.ipynb)
 This notebook visualises weather data by plotting temperature and windspeed trends over time.
-- Python libraries used: `pandas`, `matplotlib`
-- Data used: [more weather data](https://cli.fusio.net/cli/climate_data/webdata/hly4935.csv)
+- Data: [more weather data](https://cli.fusio.net/cli/climate_data/webdata/hly4935.csv)
 
 ---
 
@@ -56,18 +52,18 @@ The notebooks can be run online using [GitHub Codespaces](https://github.com/fea
 The code snippet below is extracted from the `assignment03-pie.ipynb` notebook and demonstrates how to visualize data using a pie chart.
 
 ```python
-   # Pie chart.
-   count = df["Domain"].value_counts()
-   labels = count.index
-   colours = ("orange", "gold", "cornsilk")
+# Pie chart.
+count = df["Domain"].value_counts()
+labels = count.index
+colours = ("orange", "gold", "cornsilk")
 
-   fig, ax = plt.subplots(figsize=(7, 7))
-   ax.pie(count, labels=labels, colors=colours, autopct='%1.2f%%', shadow=True,
-          explode=(0.1, 0, 0), wedgeprops={"edgecolor": "k"})
+fig, ax = plt.subplots(figsize=(7, 7))
+ax.pie(count, labels=labels, colors=colours, autopct='%1.2f%%', shadow=True,
+       explode=(0.1, 0, 0), wedgeprops={"edgecolor": "k"})
 
-   ax.set_title("Email Domains", fontsize=20)
+ax.set_title("Email Domains", fontsize=20)
 
-   plt.show()
+plt.show()
 ```
 ![Image of a pie chart](img/pie.png)
 
