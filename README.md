@@ -1,5 +1,4 @@
-# PFDA-assignments
-**Programming for Data Analytics - Assignments**
+# Programming for Data Analytics - Assignments
 
 This repository contains Jupyter notebooks showcasing the assignments for the Programming for Data Analytics module. Each notebook demonstrates the use of Python libraries such as `pandas`, `numpy`, and `matplotlib` to process and visualise data in many ways.
 
